@@ -23,11 +23,11 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', {useUnifiedTopology: tr
   //     console.log(result);
   //   });
 
-  db.collection('Users')
-    .findOneAndDelete({_id: new ObjectID("5dd7ece479fc142a413387b5") })
-    .then((results) => {
-      console.log(JSON.stringify(result, undefined, 2));
-    });
+  // db.collection('Users')
+  //   .findOneAndDelete({_id: new ObjectID("5dd7ece479fc142a413387b5") })
+  //   .then((results) => {
+  //     console.log(JSON.stringify(result, undefined, 2));
+  //   });
 
   // db.collection('Users')
   //   .deleteMany({name: 'Aniruddha'})
